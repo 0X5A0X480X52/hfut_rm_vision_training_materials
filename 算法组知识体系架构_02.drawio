@@ -1,0 +1,250 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.1.2 Chrome/138.0.7204.243 Electron/37.4.0 Safari/537.36" version="28.1.2">
+  <diagram name="第 1 页" id="XgzA_BXzAGltXad9JRKX">
+    <mxGraphModel dx="174" dy="-1263" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="AauXIINPSRPNXFUHWGn6-149" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1840" y="2420" width="760" height="640" as="geometry" />
+        </mxCell>
+        <mxCell id="AauXIINPSRPNXFUHWGn6-139" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="AauXIINPSRPNXFUHWGn6-149">
+          <mxGeometry y="220" width="760" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="AauXIINPSRPNXFUHWGn6-140" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="AauXIINPSRPNXFUHWGn6-149">
+          <mxGeometry y="560" width="760" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AauXIINPSRPNXFUHWGn6-141" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="AauXIINPSRPNXFUHWGn6-149">
+          <mxGeometry y="600" width="760" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AauXIINPSRPNXFUHWGn6-142" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="AauXIINPSRPNXFUHWGn6-149">
+          <mxGeometry y="80" width="760" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="AauXIINPSRPNXFUHWGn6-143" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="AauXIINPSRPNXFUHWGn6-149">
+          <mxGeometry width="760" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AauXIINPSRPNXFUHWGn6-144" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="AauXIINPSRPNXFUHWGn6-149">
+          <mxGeometry y="40" width="760" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AauXIINPSRPNXFUHWGn6-138" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1980" y="2660" width="620" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="AauXIINPSRPNXFUHWGn6-129" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="AauXIINPSRPNXFUHWGn6-138">
+          <mxGeometry x="480" width="120" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="AauXIINPSRPNXFUHWGn6-135" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="AauXIINPSRPNXFUHWGn6-138" source="AauXIINPSRPNXFUHWGn6-128" target="AauXIINPSRPNXFUHWGn6-129">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AauXIINPSRPNXFUHWGn6-128" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="AauXIINPSRPNXFUHWGn6-138">
+          <mxGeometry x="320" width="120" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="AauXIINPSRPNXFUHWGn6-134" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="AauXIINPSRPNXFUHWGn6-138" source="AauXIINPSRPNXFUHWGn6-127" target="AauXIINPSRPNXFUHWGn6-128">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AauXIINPSRPNXFUHWGn6-127" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="AauXIINPSRPNXFUHWGn6-138">
+          <mxGeometry x="160" width="120" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="AauXIINPSRPNXFUHWGn6-133" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="AauXIINPSRPNXFUHWGn6-138" source="AauXIINPSRPNXFUHWGn6-126" target="AauXIINPSRPNXFUHWGn6-127">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AauXIINPSRPNXFUHWGn6-126" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="AauXIINPSRPNXFUHWGn6-138">
+          <mxGeometry width="120" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="AauXIINPSRPNXFUHWGn6-147" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="AauXIINPSRPNXFUHWGn6-138">
+          <mxGeometry x="-260" y="-160" width="880" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="AauXIINPSRPNXFUHWGn6-148" value="计算机组成原理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="AauXIINPSRPNXFUHWGn6-138">
+          <mxGeometry y="200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AauXIINPSRPNXFUHWGn6-76" value="操作系统" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="AauXIINPSRPNXFUHWGn6-138">
+          <mxGeometry y="160" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AauXIINPSRPNXFUHWGn6-74" value="数据结构与算法" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="AauXIINPSRPNXFUHWGn6-138">
+          <mxGeometry y="120" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AauXIINPSRPNXFUHWGn6-77" value="计算机网络" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="AauXIINPSRPNXFUHWGn6-138">
+          <mxGeometry y="80" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AauXIINPSRPNXFUHWGn6-63" value="微积分" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1960" y="2600" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AauXIINPSRPNXFUHWGn6-64" value="线性代数" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2040" y="2600" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AauXIINPSRPNXFUHWGn6-65" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="AauXIINPSRPNXFUHWGn6-66" target="AauXIINPSRPNXFUHWGn6-67" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AauXIINPSRPNXFUHWGn6-66" value="概率论与梳理统计" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2120" y="2600" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AauXIINPSRPNXFUHWGn6-67" value="矩阵分析" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2260" y="2600" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AauXIINPSRPNXFUHWGn6-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="AauXIINPSRPNXFUHWGn6-69" target="AauXIINPSRPNXFUHWGn6-70" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AauXIINPSRPNXFUHWGn6-69" value="运筹优化基础" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2340" y="2600" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AauXIINPSRPNXFUHWGn6-70" value="决策理论&lt;div&gt;与最优化进阶&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2480" y="2600" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AauXIINPSRPNXFUHWGn6-71" value="文献检索" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1960" y="2980" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AauXIINPSRPNXFUHWGn6-72" value="文献阅读" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2160" y="2980" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AauXIINPSRPNXFUHWGn6-73" value="文献复现与分析" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2400" y="2980" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AauXIINPSRPNXFUHWGn6-75" value="计算机体系结构" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1980" y="2700" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AauXIINPSRPNXFUHWGn6-78" value="Docker" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2140" y="2700" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AauXIINPSRPNXFUHWGn6-79" value="GNU 工具链" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2140" y="2740" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AauXIINPSRPNXFUHWGn6-80" value="Makefile 与 CMake" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2140" y="2860" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AauXIINPSRPNXFUHWGn6-81" value="Linux/Shell" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2140" y="2820" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AauXIINPSRPNXFUHWGn6-82" value="远程开发 ssh" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2140" y="2780" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AauXIINPSRPNXFUHWGn6-83" value="数据结构与算法实现" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2300" y="2700" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AauXIINPSRPNXFUHWGn6-84" value="脚本/自动化编程" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2300" y="2740" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AauXIINPSRPNXFUHWGn6-85" value="并发编程" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2300" y="2780" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AauXIINPSRPNXFUHWGn6-86" value="系统分析与设计" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2460" y="2700" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AauXIINPSRPNXFUHWGn6-87" value="设计模式" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2460" y="2740" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AauXIINPSRPNXFUHWGn6-89" value="软件测试" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2460" y="2780" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AauXIINPSRPNXFUHWGn6-90" value="英语能力" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1960" y="3020" width="640" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AauXIINPSRPNXFUHWGn6-91" value="python" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1960" y="2940" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AauXIINPSRPNXFUHWGn6-92" value="C/C++" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2280" y="2940" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AauXIINPSRPNXFUHWGn6-93" value="传统计算机视觉方法&lt;div&gt;（传统数理方法）&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1960" y="2460" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AauXIINPSRPNXFUHWGn6-94" value="计算机视觉进阶&lt;div&gt;（数据驱动）&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2280" y="2460" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AauXIINPSRPNXFUHWGn6-95" value="自动控制原理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2090" y="2540" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AauXIINPSRPNXFUHWGn6-96" value="卡尔曼滤波" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2260" y="2540" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AauXIINPSRPNXFUHWGn6-97" value="机器学习" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2090" y="2500" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AauXIINPSRPNXFUHWGn6-98" value="深度学习" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2260" y="2500" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AauXIINPSRPNXFUHWGn6-99" value="强化学习" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2430" y="2500" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AauXIINPSRPNXFUHWGn6-123" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AauXIINPSRPNXFUHWGn6-100" target="AauXIINPSRPNXFUHWGn6-101">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AauXIINPSRPNXFUHWGn6-100" value="ROS2 入门" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1960" y="2420" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AauXIINPSRPNXFUHWGn6-150" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AauXIINPSRPNXFUHWGn6-101" target="AauXIINPSRPNXFUHWGn6-146">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AauXIINPSRPNXFUHWGn6-101" value="传感器&lt;div&gt;摄像头/激光雷达/IMU&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2080" y="2420" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AauXIINPSRPNXFUHWGn6-125" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AauXIINPSRPNXFUHWGn6-102" target="AauXIINPSRPNXFUHWGn6-104">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AauXIINPSRPNXFUHWGn6-102" value="SLAM 定位与导航" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2320" y="2420" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AauXIINPSRPNXFUHWGn6-124" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AauXIINPSRPNXFUHWGn6-103" target="AauXIINPSRPNXFUHWGn6-102">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AauXIINPSRPNXFUHWGn6-103" value="传感器融合" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2200" y="2420" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AauXIINPSRPNXFUHWGn6-104" value="仿真与系统集成" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2480" y="2420" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AauXIINPSRPNXFUHWGn6-105" value="机器人系统" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1840" y="2420" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AauXIINPSRPNXFUHWGn6-106" value="计算机视觉" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1840" y="2460" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AauXIINPSRPNXFUHWGn6-107" value="数理基础" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1840" y="2500" width="120" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="AauXIINPSRPNXFUHWGn6-108" value="编程基础" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1840" y="2640" width="120" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="AauXIINPSRPNXFUHWGn6-109" value="信息检索基础" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1840" y="2980" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AauXIINPSRPNXFUHWGn6-110" value="语言基础" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1840" y="3020" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AauXIINPSRPNXFUHWGn6-111" value="计算机基础理论" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1980" y="2660" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AauXIINPSRPNXFUHWGn6-112" value="常用开发工具/环境" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="2140" y="2660" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AauXIINPSRPNXFUHWGn6-113" value="编程能力进阶" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="2300" y="2660" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AauXIINPSRPNXFUHWGn6-114" value="系统与工程设计" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="2460" y="2660" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AauXIINPSRPNXFUHWGn6-115" value="专业技能" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1720" y="2420" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AauXIINPSRPNXFUHWGn6-116" value="基础素质" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1720" y="2500" width="120" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="AauXIINPSRPNXFUHWGn6-117" value="基础编程能力" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1960" y="2920" width="640" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="AauXIINPSRPNXFUHWGn6-118" value="机器人学" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2430" y="2540" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AauXIINPSRPNXFUHWGn6-120" value="数理基础理论" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1960" y="2580" width="640" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="AauXIINPSRPNXFUHWGn6-121" value="传统数理方法" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1960" y="2540" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AauXIINPSRPNXFUHWGn6-122" value="数据驱动方法" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1960" y="2500" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AauXIINPSRPNXFUHWGn6-146" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;算法组知识体系架构&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1720" y="2360" width="880" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
