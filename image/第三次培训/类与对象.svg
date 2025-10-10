@@ -1,0 +1,56 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="262pt" height="233pt" viewBox="0.00 0.00 262.40 233.00">
+<g id="graph0" class="graph" transform="translate(4,229) scale(1)" data-name="StudentOOP">
+
+<polygon fill="white" stroke="none" points="-4,4 -4,-229 258.4,-229 258.4,4 -4,4"/>
+<!-- Student -->
+<g id="node1" class="node" pointer-events="visible" data-name="Student">
+
+<polygon fill="none" stroke="black" points="63.99,-0.5 63.99,-110.9 190.41,-110.9 190.41,-0.5 63.99,-0.5"/>
+<text text-anchor="middle" x="127.2" y="-96.1" font-family="Helvetica,sans-Serif" font-size="12.00">Student类</text>
+<polyline fill="none" stroke="black" points="63.99,-88.5 190.41,-88.5"/>
+<text text-anchor="start" x="71.99" y="-73.7" font-family="Helvetica,sans-Serif" font-size="12.00">+ name: str</text>
+<text text-anchor="start" x="71.99" y="-59.3" font-family="Helvetica,sans-Serif" font-size="12.00">+ scores: list</text>
+<polyline fill="none" stroke="black" points="63.99,-51.7 190.41,-51.7"/>
+<text text-anchor="start" x="71.99" y="-36.9" font-family="Helvetica,sans-Serif" font-size="12.00">+ average()</text>
+<text text-anchor="start" x="71.99" y="-22.5" font-family="Helvetica,sans-Serif" font-size="12.00">+ add_bonus(bonus)</text>
+<text text-anchor="start" x="71.99" y="-8.1" font-family="Helvetica,sans-Serif" font-size="12.00">+ report()</text>
+</g>
+<!-- alice -->
+<g id="node2" class="node" pointer-events="visible" data-name="alice">
+
+<polygon fill="none" stroke="black" points="112.6,-224.8 -0.2,-224.8 -0.2,-159.6 118.6,-159.6 118.6,-218.8 112.6,-224.8"/>
+<polyline fill="none" stroke="black" points="112.6,-224.8 112.6,-218.8"/>
+<polyline fill="none" stroke="black" points="118.6,-218.8 112.6,-218.8"/>
+<text text-anchor="middle" x="59.2" y="-210.2" font-family="Helvetica,sans-Serif" font-size="12.00">alice</text>
+<text text-anchor="middle" x="59.2" y="-195.8" font-family="Helvetica,sans-Serif" font-size="12.00">(Student 对象实例)</text>
+<text text-anchor="middle" x="59.2" y="-181.4" font-family="Helvetica,sans-Serif" font-size="12.00">name='Alice'</text>
+<text text-anchor="middle" x="59.2" y="-167" font-family="Helvetica,sans-Serif" font-size="12.00">scores=[80, 90, 70]</text>
+</g>
+<!-- alice&#45;&gt;Student -->
+<g id="edge1" class="edge" data-name="alice-&gt;Student">
+
+<path fill="none" stroke="black" stroke-dasharray="1,5" d="M75.31,-159.33C81.17,-147.75 88.01,-134.22 94.77,-120.85"/>
+<polygon fill="black" stroke="black" points="97.83,-122.55 99.22,-112.05 91.58,-119.39 97.83,-122.55"/>
+<text text-anchor="middle" x="111" y="-132.4" font-family="Times,serif" font-size="10.00">instance of</text>
+</g>
+<!-- bob -->
+<g id="node3" class="node" pointer-events="visible" data-name="bob">
+
+<polygon fill="none" stroke="black" points="248.6,-224.8 135.8,-224.8 135.8,-159.6 254.6,-159.6 254.6,-218.8 248.6,-224.8"/>
+<polyline fill="none" stroke="black" points="248.6,-224.8 248.6,-218.8"/>
+<polyline fill="none" stroke="black" points="254.6,-218.8 248.6,-218.8"/>
+<text text-anchor="middle" x="195.2" y="-210.2" font-family="Helvetica,sans-Serif" font-size="12.00">bob</text>
+<text text-anchor="middle" x="195.2" y="-195.8" font-family="Helvetica,sans-Serif" font-size="12.00">(Student 对象实例)</text>
+<text text-anchor="middle" x="195.2" y="-181.4" font-family="Helvetica,sans-Serif" font-size="12.00">name='Bob'</text>
+<text text-anchor="middle" x="195.2" y="-167" font-family="Helvetica,sans-Serif" font-size="12.00">scores=[60, 65, 70]</text>
+</g>
+<!-- bob&#45;&gt;Student -->
+<g id="edge2" class="edge" data-name="bob-&gt;Student">
+
+<path fill="none" stroke="black" stroke-dasharray="1,5" d="M179.08,-159.33C173.23,-147.75 166.39,-134.22 159.63,-120.85"/>
+<polygon fill="black" stroke="black" points="162.82,-119.39 155.18,-112.05 156.57,-122.55 162.82,-119.39"/>
+<text text-anchor="middle" x="191" y="-132.4" font-family="Times,serif" font-size="10.00">instance of</text>
+</g>
+</g>
+</svg>
