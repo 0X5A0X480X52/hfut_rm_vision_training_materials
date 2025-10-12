@@ -1,0 +1,15 @@
+digraph StudentOOP {
+  rankdir=TB;
+  node [fontname="Helvetica", fontsize=12];
+
+  // 定义类
+  Student [shape=record, label="{Student类 |+ name: str\l+ scores: list\l|+ average()\l+ add_bonus(bonus)\l+ report()\l}"];
+
+  // 定义实例对象
+  alice [shape=note, label="alice\n(Student 对象实例)\nname='Alice'\nscores=[80, 90, 70]"];
+  bob   [shape=note, label="bob\n(Student 对象实例)\nname='Bob'\nscores=[60, 65, 70]"];
+
+  // 关系：对象由类实例化而来
+  alice -> Student [style=dotted, label="instance of", fontsize=10];
+  bob   -> Student [style=dotted, label="instance of", fontsize=10];
+}
