@@ -1,0 +1,101 @@
+\documentclass[12pt,a4paper]{article}
+
+% 中文支持
+\usepackage{xeCJK}
+\setCJKmainfont{Microsoft YaHei}
+
+% 英文字体
+\usepackage{fontspec}
+\setmainfont{Consolas}
+
+% Emoji 支持 - 使用 Segoe UI Emoji 字体
+\newfontfamily\DejaSans{Segoe UI Emoji}
+
+% 页面设置
+\usepackage{geometry}
+\geometry{$if(geometry)$$geometry$$else$margin=1in$endif$}
+
+% 代码高亮
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{fancyvrb}
+\usepackage{framed}
+
+% 定义 Shaded 环境
+\newenvironment{Shaded}{\begin{snugshade}}{\end{snugshade}}
+\definecolor{shadecolor}{RGB}{248,248,248}
+
+% 设置代码块样式
+\lstset{
+    basicstyle=\ttfamily\small,
+    breaklines=true,
+    frame=single,
+    backgroundcolor=\color{gray!10},
+    keywordstyle=\color{blue},
+    commentstyle=\color{green!50!black},
+    stringstyle=\color{red}
+}
+
+% 超链接
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+    citecolor=blue
+}
+
+% 表格支持
+\usepackage{longtable}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{calc}
+
+% 图片支持
+\usepackage{graphicx}
+
+% 标题设置
+$if(title)$
+\title{$title$}
+$endif$
+$if(author)$
+\author{$author$}
+$endif$
+$if(date)$
+\date{$date$}
+$endif$
+
+% 目录深度
+\setcounter{tocdepth}{3}
+
+% 段落间距
+\usepackage{parskip}
+
+% 自定义命令处理 emoji
+\usepackage{newunicodechar}
+\newunicodechar{💻}{{\DejaSans 💻}}
+\newunicodechar{✅}{{\DejaSans ✅}}
+\newunicodechar{🌟}{{\DejaSans 🌟}}
+\newunicodechar{📘}{{\DejaSans 📘}}
+\newunicodechar{🔗}{{\DejaSans 🔗}}
+\newunicodechar{📝}{{\DejaSans 📝}}
+\newunicodechar{💪}{{\DejaSans 💪}}
+
+% 定义 tightlist 命令（pandoc 需要）
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+\begin{document}
+
+$if(title)$
+\maketitle
+$endif$
+
+$if(toc)$
+\tableofcontents
+\newpage
+$endif$
+
+$body$
+
+\end{document}

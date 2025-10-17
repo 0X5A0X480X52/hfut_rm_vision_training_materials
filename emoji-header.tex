@@ -1,0 +1,123 @@
+% Emoji 和特殊字符字体支持
+\usepackage{newunicodechar}
+\newfontfamily\DejaSans{Segoe UI Emoji}
+\newfontfamily\TreeFont{DejaVu Sans Mono}
+\newfontfamily\CircleFont{Microsoft YaHei}
+
+% 定义 emoji 字符
+\newunicodechar{💻}{{\DejaSans 💻}}
+\newunicodechar{✅}{{\DejaSans ✅}}
+\newunicodechar{🌟}{{\DejaSans 🌟}}
+\newunicodechar{📘}{{\DejaSans 📘}}
+\newunicodechar{🔗}{{\DejaSans 🔗}}
+\newunicodechar{📝}{{\DejaSans 📝}}
+\newunicodechar{💪}{{\DejaSans 💪}}
+\newunicodechar{📚}{{\DejaSans 📚}}
+\newunicodechar{💡}{{\DejaSans 💡}}
+\newunicodechar{✓}{{\DejaSans ✓}}
+\newunicodechar{✗}{{\DejaSans ✗}}
+
+% 定义带圈数字 - 使用 CircleFont
+\newunicodechar{①}{{\CircleFont ①}}
+\newunicodechar{②}{{\CircleFont ②}}
+\newunicodechar{③}{{\CircleFont ③}}
+\newunicodechar{④}{{\CircleFont ④}}
+\newunicodechar{⑤}{{\CircleFont ⑤}}
+\newunicodechar{⑥}{{\CircleFont ⑥}}
+\newunicodechar{⑦}{{\CircleFont ⑦}}
+\newunicodechar{⑧}{{\CircleFont ⑧}}
+\newunicodechar{⑨}{{\CircleFont ⑨}}
+\newunicodechar{⑩}{{\CircleFont ⑩}}
+
+% 定义树形图字符（目录结构字符）
+\newunicodechar{─}{{\TreeFont ─}}
+\newunicodechar{│}{{\TreeFont │}}
+\newunicodechar{├}{{\TreeFont ├}}
+\newunicodechar{└}{{\TreeFont └}}
+
+% 移除章节编号
+\setcounter{secnumdepth}{0}
+
+% 设置更大的字体
+\usepackage{geometry}
+\geometry{a4paper, margin=1in}
+
+% 设置正文字体大小为 12pt
+\renewcommand{\normalsize}{\fontsize{12pt}{18pt}\selectfont}
+
+% 超链接样式 - 蓝色高亮带下划线
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=blue,
+    urlcolor=blue,
+    citecolor=blue,
+    anchorcolor=blue,
+    bookmarks=true,
+    pdfborder={0 0 0}
+}
+
+% 为超链接添加下划线
+\usepackage[normalem]{ulem}
+\makeatletter
+\Hy@colorlinkstrue
+\def\Hy@colorlink#1{%
+  \begingroup
+    \color{#1}%
+    \uline
+}
+\def\Hy@endcolorlink{%
+  \endgroup
+}
+\makeatother
+
+% 代码块样式 - 带边框和语法高亮
+\usepackage{listings}
+\usepackage{xcolor}
+
+% 定义颜色
+\definecolor{codebackground}{RGB}{248,248,248}
+\definecolor{codeborder}{RGB}{204,204,204}
+\definecolor{keywordcolor}{RGB}{0,0,255}
+\definecolor{commentcolor}{RGB}{0,128,0}
+\definecolor{stringcolor}{RGB}{163,21,21}
+\definecolor{numbercolor}{RGB}{128,128,128}
+
+% 配置 listings 全局样式
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{codebackground},
+    commentstyle=\color{commentcolor}\itshape,
+    keywordstyle=\color{keywordcolor}\bfseries,
+    numberstyle=\tiny\color{numbercolor},
+    stringstyle=\color{stringcolor},
+    basicstyle=\ttfamily\normalsize,
+    breakatwhitespace=false,
+    breaklines=true,
+    captionpos=b,
+    keepspaces=true,
+    showspaces=false,
+    showstringspaces=false,
+    showtabs=false,
+    tabsize=4,
+    frame=single,
+    frameround=tttt,
+    rulecolor=\color{codeborder},
+    framesep=4pt,
+    xleftmargin=8pt,
+    xrightmargin=8pt,
+    aboveskip=10pt,
+    belowskip=10pt
+}
+
+\lstset{style=mystyle}
+
+% 为不同语言配置高亮
+\lstdefinelanguage{makefile}{
+    morekeywords={CC,CFLAGS,all,clean},
+    morecomment=[l]{\#},
+    morestring=[b]",
+}
+
+% 设置默认语言
+\lstset{language=C}

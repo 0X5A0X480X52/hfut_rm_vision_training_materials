@@ -25,8 +25,8 @@
 
 **在线教程**：
 
-- [C 语言官方文档](https://www.iso-9899.info/wiki/Main_Page)：涵盖 C 语言标准规范，是最权威的参考资料。
-- [​菜鸟教程 C 语言教程](https://www.runoob.com/cprogramming/c-tutorial.html)：以简洁的语言讲解 C 语言基础语法，搭配实例代码，适合零基础入门。
+- [*C 语言官方文档* (https://www.iso-9899.info/wiki/Main_Page)](https://www.iso-9899.info/wiki/Main_Page)：涵盖 C 语言标准规范，是最权威的参考资料。
+- [*菜鸟教程 C 语言教程* (https://www.runoob.com/cprogramming/c-tutorial.html)](https://www.runoob.com/cprogramming/c-tutorial.html)：以简洁的语言讲解 C 语言基础语法，搭配实例代码，适合零基础入门。
 
 **书籍**：
 
@@ -205,9 +205,9 @@ Day1/
 #### 🔗 1.2 学习资料
 
 - 菜鸟教程：
-  - [C 语言教程](https://www.runoob.com/cprogramming/c-tutorial.html)
-  - [C 程序结构](https://www.runoob.com/cprogramming/c-program-structure.html)
-- C 官方文档：[ISO C 标准](https://www.iso-9899.info/wiki/Main_Page)
+  - [*C 语言教程* (https://www.runoob.com/cprogramming/c-tutorial.html)](https://www.runoob.com/cprogramming/c-tutorial.html)
+  - [*C 程序结构* (https://www.runoob.com/cprogramming/c-program-structure.html)](https://www.runoob.com/cprogramming/c-program-structure.html)
+- C 官方文档：[*ISO C 标准* (https://www.iso-9899.info/wiki/Main_Page)](https://www.iso-9899.info/wiki/Main_Page)
 
 #### ✅ 1.3 应知应会 Checklist
 
@@ -252,10 +252,10 @@ gcc hello.c -o hello
 #### 🔗 2.2 学习资料
 
 - 菜鸟教程：
-  - [C 数据类型](https://www.runoob.com/cprogramming/c-data-types.html)
-  - [C 变量](https://www.runoob.com/cprogramming/c-variables.html)
-  - [C 常量](https://www.runoob.com/cprogramming/c-constants.html)
-  - [C 输入 & 输出](https://www.runoob.com/cprogramming/c-input-output.html)
+  - [*C 数据类型* (https://www.runoob.com/cprogramming/c-data-types.html)](https://www.runoob.com/cprogramming/c-data-types.html)
+  - [*C 变量* (https://www.runoob.com/cprogramming/c-variables.html)](https://www.runoob.com/cprogramming/c-variables.html)
+  - [*C 常量* (https://www.runoob.com/cprogramming/c-constants.html)](https://www.runoob.com/cprogramming/c-constants.html)
+  - [*C 输入 & 输出* (https://www.runoob.com/cprogramming/c-input-output.html)](https://www.runoob.com/cprogramming/c-input-output.html)
 
 #### ✅ 2.3 应知应会 Checklist
 
@@ -300,8 +300,8 @@ int main() {
 #### 🔗 3.2 学习资料
 
 - 菜鸟教程：
-  - [C 运算符](https://www.runoob.com/cprogramming/c-operators.html)
-  - [C 运算符优先级](https://www.runoob.com/cprogramming/c-operators-precedence.html)
+  - [*C 运算符* (https://www.runoob.com/cprogramming/c-operators.html)](https://www.runoob.com/cprogramming/c-operators.html)
+  - [*C 运算符优先级* (https://www.runoob.com/cprogramming/c-operators-precedence.html)](https://www.runoob.com/cprogramming/c-operators-precedence.html)
 
 #### ✅ 3.3 应知应会 Checklist
 
@@ -355,9 +355,9 @@ int main() {
 #### 🔗 4.2 学习资料
 
 - 菜鸟教程：
-  - [C 判断](https://www.runoob.com/cprogramming/c-decision.html)
-  - [C if 语句](https://www.runoob.com/cprogramming/c-if.html)
-  - [C switch 语句](https://www.runoob.com/cprogramming/c-switch.html)
+  - [*C 判断* (https://www.runoob.com/cprogramming/c-decision.html)](https://www.runoob.com/cprogramming/c-decision.html)
+  - [*C if 语句* (https://www.runoob.com/cprogramming/c-if.html)](https://www.runoob.com/cprogramming/c-if.html)
+  - [*C switch 语句* (https://www.runoob.com/cprogramming/c-switch.html)](https://www.runoob.com/cprogramming/c-switch.html)
 
 #### ✅ 4.3 应知应会 Checklist
 
@@ -416,10 +416,10 @@ int main() {
 #### 🔗 5.2 学习资料
 
 - 菜鸟教程：
-  - [C 循环](https://www.runoob.com/cprogramming/c-loops.html)
-  - [C for 循环](https://www.runoob.com/cprogramming/c-for-loop.html)
-  - [C while 循环](https://www.runoob.com/cprogramming/c-while-loop.html)
-  - [C do...while 循环](https://www.runoob.com/cprogramming/c-do-while-loop.html)
+  - [*C 循环* (https://www.runoob.com/cprogramming/c-loops.html)](https://www.runoob.com/cprogramming/c-loops.html)
+  - [*C for 循环* (https://www.runoob.com/cprogramming/c-for-loop.html)](https://www.runoob.com/cprogramming/c-for-loop.html)
+  - [*C while 循环* (https://www.runoob.com/cprogramming/c-while-loop.html)](https://www.runoob.com/cprogramming/c-while-loop.html)
+  - [*C do...while 循环* (https://www.runoob.com/cprogramming/c-do-while-loop.html)](https://www.runoob.com/cprogramming/c-do-while-loop.html)
 
 #### ✅ 5.3 应知应会 Checklist
 
@@ -473,8 +473,8 @@ int main() {
 #### 🔗 6.2 学习资料
 
 - 菜鸟教程：
-  - [C 函数](https://www.runoob.com/cprogramming/c-functions.html)
-  - [C 作用域规则](https://www.runoob.com/cprogramming/c-scope-rules.html)
+  - [*C 函数* (https://www.runoob.com/cprogramming/c-functions.html)](https://www.runoob.com/cprogramming/c-functions.html)
+  - [*C 作用域规则* (https://www.runoob.com/cprogramming/c-scope-rules.html)](https://www.runoob.com/cprogramming/c-scope-rules.html)
 
 #### ✅ 6.3 应知应会 Checklist
 
@@ -518,7 +518,7 @@ int main() {
 #### 🔗 7.2 学习资料
 
 - 回顾 Day 1-6 的知识点和代码
-- 菜鸟教程：[C 练习实例](https://www.runoob.com/cprogramming/c-examples.html)
+- 菜鸟教程：[*C 练习实例* (https://www.runoob.com/cprogramming/c-examples.html)](https://www.runoob.com/cprogramming/c-examples.html)
 
 #### ✅ 7.3 应知应会 Checklist
 
@@ -580,7 +580,7 @@ int main() {
 #### 🔗 8.2 学习资料
 
 - 菜鸟教程：
-  - [C 数组](https://www.runoob.com/cprogramming/c-arrays.html)
+  - [*C 数组* (https://www.runoob.com/cprogramming/c-arrays.html)](https://www.runoob.com/cprogramming/c-arrays.html)
 
 #### ✅ 8.3 应知应会 Checklist
 
@@ -628,7 +628,7 @@ int main() {
 #### 🔗 9.2 学习资料
 
 - 菜鸟教程：
-  - [C 多维数组](https://www.runoob.com/cprogramming/c-multi-dimensional-arrays.html)
+  - [*C 多维数组* (https://www.runoob.com/cprogramming/c-multi-dimensional-arrays.html)](https://www.runoob.com/cprogramming/c-multi-dimensional-arrays.html)
 
 #### ✅ 9.3 应知应会 Checklist
 
@@ -671,7 +671,7 @@ int main() {
 #### 🔗 10.2 学习资料
 
 - 菜鸟教程：
-  - [C 字符串](https://www.runoob.com/cprogramming/c-strings.html)
+  - [*C 字符串* (https://www.runoob.com/cprogramming/c-strings.html)](https://www.runoob.com/cprogramming/c-strings.html)
 
 #### ✅ 10.3 应知应会 Checklist
 
@@ -724,7 +724,7 @@ int main() {
 #### 🔗 11.2 学习资料
 
 - 菜鸟教程：
-  - [C 指针](https://www.runoob.com/cprogramming/c-pointers.html)
+  - [*C 指针* (https://www.runoob.com/cprogramming/c-pointers.html)](https://www.runoob.com/cprogramming/c-pointers.html)
 - 《C 和指针》相关章节
 
 #### ✅ 11.3 应知应会 Checklist
@@ -776,8 +776,8 @@ int main() {
 #### 🔗 12.2 学习资料
 
 - 菜鸟教程：
-  - [C 指针](https://www.runoob.com/cprogramming/c-pointers.html)
-  - [C 函数指针与回调函数](https://www.runoob.com/cprogramming/c-fun-pointer-callback.html)
+  - [*C 指针* (https://www.runoob.com/cprogramming/c-pointers.html)](https://www.runoob.com/cprogramming/c-pointers.html)
+  - [*C 函数指针与回调函数* (https://www.runoob.com/cprogramming/c-fun-pointer-callback.html)](https://www.runoob.com/cprogramming/c-fun-pointer-callback.html)
 
 #### ✅ 12.3 应知应会 Checklist
 
@@ -831,8 +831,8 @@ int main() {
 #### 🔗 13.2 学习资料
 
 - 菜鸟教程：
-  - [C 结构体](https://www.runoob.com/cprogramming/c-structures.html)
-  - [C typedef](https://www.runoob.com/cprogramming/c-typedef.html)
+  - [*C 结构体* (https://www.runoob.com/cprogramming/c-structures.html)](https://www.runoob.com/cprogramming/c-structures.html)
+  - [*C typedef* (https://www.runoob.com/cprogramming/c-typedef.html)](https://www.runoob.com/cprogramming/c-typedef.html)
 
 #### ✅ 13.3 应知应会 Checklist
 
@@ -890,7 +890,7 @@ int main() {
 #### 🔗 14.2 学习资料
 
 - 回顾 Day 8-13 的知识点和代码
-- 菜鸟教程：[C 练习实例](https://www.runoob.com/cprogramming/c-examples.html)
+- 菜鸟教程：[*C 练习实例* (https://www.runoob.com/cprogramming/c-examples.html)](https://www.runoob.com/cprogramming/c-examples.html)
 
 #### ✅ 14.3 应知应会 Checklist
 
@@ -973,7 +973,7 @@ int main() {
 #### 🔗 15.2 学习资料
 
 - 菜鸟教程：
-  - [C 文件读写](https://www.runoob.com/cprogramming/c-file-io.html)
+  - [*C 文件读写* (https://www.runoob.com/cprogramming/c-file-io.html)](https://www.runoob.com/cprogramming/c-file-io.html)
 
 #### ✅ 15.3 应知应会 Checklist
 
@@ -1039,7 +1039,7 @@ int main() {
 #### 🔗 16.2 学习资料
 
 - 菜鸟教程：
-  - [C 内存管理](https://www.runoob.com/cprogramming/c-memory-management.html)
+  - [*C 内存管理* (https://www.runoob.com/cprogramming/c-memory-management.html)](https://www.runoob.com/cprogramming/c-memory-management.html)
 
 #### ✅ 16.3 应知应会 Checklist
 
@@ -1099,8 +1099,8 @@ int main() {
 #### 🔗 17.2 学习资料
 
 - 菜鸟教程：
-  - [C 头文件](https://www.runoob.com/cprogramming/c-header-files.html)
-  - [C 预处理器](https://www.runoob.com/cprogramming/c-preprocessors.html)
+  - [*C 头文件* (https://www.runoob.com/cprogramming/c-header-files.html)](https://www.runoob.com/cprogramming/c-header-files.html)
+  - [*C 预处理器* (https://www.runoob.com/cprogramming/c-preprocessors.html)](https://www.runoob.com/cprogramming/c-preprocessors.html)
 
 #### ✅ 17.3 应知应会 Checklist
 
@@ -1194,9 +1194,9 @@ gcc main.c math_utils.c -o calculator
 
 #### 🔗 18.2 学习资料
 
-- GCC 官方文档：[GCC Manual](https://gcc.gnu.org/onlinedocs/gcc/)
-- GDB 官方文档：[GDB Manual](https://www.gnu.org/software/gdb/documentation/)
-- 廖雪峰的官方网站：[Makefile 教程](https://liaoxuefeng.com/books/makefile/introduction/index.html)
+- GCC 官方文档：[*GCC Manual* (https://gcc.gnu.org/onlinedocs/gcc/)](https://gcc.gnu.org/onlinedocs/gcc/)
+- GDB 官方文档：[*GDB Manual* (https://www.gnu.org/software/gdb/documentation/)](https://www.gnu.org/software/gdb/documentation/)
+- 廖雪峰的官方网站：[*Makefile 教程* (https://liaoxuefeng.com/books/makefile/introduction/index.html)](https://liaoxuefeng.com/books/makefile/introduction/index.html)
 
 #### ✅ 18.3 应知应会 Checklist
 
@@ -1264,8 +1264,8 @@ gdb ./calculator
 
 #### 🔗 19.2 学习资料
 
-- CMake 官方教程：[CMake Tutorial](https://cmake.org/cmake/help/latest/guide/tutorial/index.html)
-- 菜鸟教程：[CMake 教程](https://www.runoob.com/cmake/cmake-tutorial.html)
+- CMake 官方教程：[*CMake Tutorial* (https://cmake.org/cmake/help/latest/guide/tutorial/index.html)](https://cmake.org/cmake/help/latest/guide/tutorial/index.html)
+- 菜鸟教程：[*CMake 教程* (https://www.runoob.com/cmake/cmake-tutorial.html)](https://www.runoob.com/cmake/cmake-tutorial.html)
 
 #### ✅ 19.3 应知应会 Checklist
 

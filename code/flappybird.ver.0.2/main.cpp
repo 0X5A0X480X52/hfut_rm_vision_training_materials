@@ -1,7 +1,7 @@
 /*
 *   coding = UTF-8
 *   project flappybird.ver.2.0
-*   \author 张恒睿 2023211145
+*   \author Amatrix
 *   \date 2024/05/29
 */
 
