@@ -48,8 +48,8 @@
 教程共 **21 天**，分为三周进行。
 
 - **第一周**：重点掌握 **C语言基础语法与编译型思维**，理解 C 程序结构、变量与数据类型、运算符、条件语句与循环语句。
-- **第二周**：重点学习 **数组、指针、字符串、函数、内存管理**，建立内存视角，理解函数参数传递机制。
-- **第三周**：重点学习 **模块化编程、头文件、文件操作、Makefile 与 CMake 工程化构建**，并完成综合项目“学生成绩管理系统”，扩展项目为控制台 Flappy Bird。
+- **第二周**：重点学习 **数组、指针、字符串、函数、结构体**，建立模块化视角，理解函数参数传递机制。
+- **第三周**：重点学习 **模块化编程、内存管理、头文件、文件操作、Makefile 与 CMake 工程化构建**，并完成综合项目“学生成绩管理系统”，扩展项目为控制台 Flappy Bird。
 
 本教程的每天学习内容包括：
 
@@ -1167,7 +1167,16 @@ int main() {
 }
 ```
 
-编译命令：
+完成后的项目结构：
+
+```bash
+project/
+├── main.c
+├── math_utils.c
+└── math_utils.h
+```
+
+进入项目目录，并使用编译命令：
 
 ```bash
 gcc main.c math_utils.c -o calculator
@@ -1208,6 +1217,11 @@ gcc main.c math_utils.c -o calculator
 
 #### 📝 18.4 小任务
 
+进行本次任务前，请确保：
+
+1. 已完成 Day 17 的多文件项目代码。
+2. 已安装 GCC 和 GDB 工具。
+
 为 Day 17 的多文件项目编写 Makefile 并使用 GDB 调试：
 
 **Makefile**：
@@ -1217,17 +1231,28 @@ CC = gcc
 CFLAGS = -Wall -g
 
 calculator: main.o math_utils.o
- $(CC) $(CFLAGS) -o calculator main.o math_utils.o
+	$(CC) $(CFLAGS) -o calculator main.o math_utils.o
 
 main.o: main.c math_utils.h
- $(CC) $(CFLAGS) -c main.c
+	$(CC) $(CFLAGS) -c main.c
 
 math_utils.o: math_utils.c math_utils.h
- $(CC) $(CFLAGS) -c math_utils.c
+	$(CC) $(CFLAGS) -c math_utils.c
 
 clean:
- rm -f *.o calculator
+	rm -f *.o calculator
 ```
+
+【注意】在 Makefile 中编辑时要特别注意:
+
+- 命令行前必须使用 Tab 字符,不能用空格；若使用空格可能会报错：
+
+  ```bash
+  Makefile:3: *** missing separator.  Stop.
+  ```
+
+  很多编辑器默认会将 Tab 转换为空格,这会导致错误，建议在编辑 Makefile 时关闭此功能。
+- 在命令行中执行 `make` 时,Make 会自动查找当前目录下名为 `Makefile` 或 `makefile` 的文件,因此不需要指定文件名。
 
 编译：
 
@@ -1235,14 +1260,39 @@ clean:
 make
 ```
 
+【注意】如果在 Windows 上使用 MinGW 或 Cygwin，在命令行中使用 `make` 报错：
+
+```powershell
+PS > make
+make : 无法将“make”项识别为 cmdlet、函数、脚本文件或可运行程序的名称。请检查名称的拼写，如果包括路径，请确保路径正确，然后再试一次。
+所在位置 行:1 字符: 1
++ make
++ ~~~~
+    + CategoryInfo          : ObjectNotFound: (make:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+```
+
+这是因为 MinGW 或 Cygwin 中的 make 命令可能被命名为 `mingw32-make` 或其他名称。请根据实际情况使用正确的命令，例如：
+
+```powershell
+PS > mingw32-make
+gcc -Wall -g -c main.c
+gcc -Wall -g -c math_utils.c
+gcc -Wall -g -o calculator main.o math_utils.o
+```
+
 调试：
 
 ```bash
 gdb ./calculator
 (gdb) break main
+(gdb) break add
 (gdb) run
 (gdb) next
 (gdb) print a
+(gdb) print b
+(gdb) step
+(gdb) continue
 (gdb) quit
 ```
 
@@ -1265,7 +1315,12 @@ gdb ./calculator
 #### 🔗 19.2 学习资料
 
 - CMake 官方教程：[*CMake Tutorial* (https://cmake.org/cmake/help/latest/guide/tutorial/index.html)](https://cmake.org/cmake/help/latest/guide/tutorial/index.html)
+- 廖雪峰的官方网站：[*Makefile 教程* (https://liaoxuefeng.com/books/makefile/introduction/index.html)](https://liaoxuefeng.com/books/makefile/introduction/index.html)
 - 菜鸟教程：[*CMake 教程* (https://www.runoob.com/cmake/cmake-tutorial.html)](https://www.runoob.com/cmake/cmake-tutorial.html)
+- CMake 环境配置：
+  - [*使用 CMake 快速启动创建 CMake hello world 项目* (https://vscode.js.cn/docs/cpp/cmake-quickstart)](https://vscode.js.cn/docs/cpp/cmake-quickstart)
+  - [*VScode环境下使用CMake构建工程* (https://blog.csdn.net/qq_32348883/article/details/128890057)](https://blog.csdn.net/qq_32348883/article/details/128890057)
+  - [*Clion:创建/打开 CMake 项目* (https://www.jetbrains.com/zh-cn/help/clion/creating-new-project-from-scratch.html)](https://www.jetbrains.com/zh-cn/help/clion/creating-new-project-from-scratch.html)
 
 #### ✅ 19.3 应知应会 Checklist
 
@@ -1277,28 +1332,142 @@ gdb ./calculator
 
 #### 📝 19.4 小任务
 
+进行本次任务前，请确保 `CMake` 已安装。通过以下命令检查：
+
+```bash
+cmake --version
+```
+
+如果未安装，请参考官方文档等资料进行安装。
+
+构建为学生成绩管理系统的文件结构：
+
+```bash
+StudentManagement/
+├── CMakeLists.txt
+├── include/
+│   ├── student.h
+│   └── file_utils.h
+├── src/
+│   ├── main.c
+│   ├── student.c
+│   └── file_utils.c
+└── data/
+    └── students.txt
+```
+
+创建以上文件，并依次填写测试代码内容：
+
+**include/student.h**：
+
+```c
+#ifndef STUDENT_H
+#define STUDENT_H
+
+struct Student {
+    int id;
+    char name[64];
+};
+
+void print_student(const struct Student *s);
+
+#endif // STUDENT_H
+```
+
+**include/file_utils.h**：
+
+```c
+#ifndef FILE_UTILS_H
+#define FILE_UTILS_H
+
+#include "student.h"
+
+void save_student_to_file(const struct Student *s, const char *path);
+
+#endif // FILE_UTILS_H
+```
+
+**src/student.c**：
+
+```c
+#include <stdio.h>
+#include "student.h"
+
+void print_student(const struct Student *s) {
+    if (!s) return;
+    printf("Student{id=%d, name=%s}\n", s->id, s->name);
+}
+```
+
+**src/file_utils.c**：
+
+```c
+#include <stdio.h>
+#include "file_utils.h"
+
+void save_student_to_file(const struct Student *s, const char *path) {
+    if (!s || !path) return;
+    FILE *f = fopen(path, "w");
+    if (!f) return;
+    fprintf(f, "%d,%s\n", s->id, s->name);
+    fclose(f);
+}
+```
+
+**src/main.c**：
+
+```c
+#include <stdio.h>
+#include "student.h"
+#include "file_utils.h"
+
+int main(void) {
+    printf("Student Management - minimal demo\n");
+
+    struct Student s;
+    s.id = 1;
+    snprintf(s.name, sizeof(s.name), "Alice");
+
+    print_student(&s);
+
+    // 保存并读取示例文件
+    save_student_to_file(&s, "students.txt");
+    printf("Saved student to students.txt\n");
+
+    return 0;
+}
+```
+
 为学生成绩管理系统创建 CMake 项目：
 
 **CMakeLists.txt**：
 
 ```cmake
 cmake_minimum_required(VERSION 3.10)
+
 project(StudentManagement)
 
 set(CMAKE_C_STANDARD 11)
 
 # 添加可执行文件
+
+# 设置编译选项 (通过后面的条件分支应用)
+include_directories(${CMAKE_SOURCE_DIR}/includes)
+
+# 将 src 目录下的所有 .c 源文件添加到可执行文件中
 add_executable(student_system 
-    main.c 
-    student.c 
-    file_utils.c
+    ${CMAKE_SOURCE_DIR}/src/main.c
+    ${CMAKE_SOURCE_DIR}/src/student.c
+    ${CMAKE_SOURCE_DIR}/src/file_utils.c
 )
 
-# 设置编译选项
+# 根据编译器选择合适的警告选项
 target_compile_options(student_system PRIVATE -Wall -Wextra)
 ```
 
-构建项目：
+**构建项目**：
+
+Linux 环境：
 
 ```bash
 mkdir build
@@ -1306,6 +1475,35 @@ cd build
 cmake ..
 make
 ./student_system
+```
+
+Windows 环境（使用 PowerShell）：
+
+```powershell
+mkdir build
+cd build
+cmake -G "MinGW Makefiles" ..
+mingw32-make
+.\student_system
+```
+
+【注意】 在 Windows 上使用 MinGW 或 Cygwin 时，`make` 命令可能被命名为 `mingw32-make` 或其他名称。请根据实际情况使用正确的命令。同时，请**避免使用包含中文路径**，以防止编码问题导致构建失败。例如：
+
+```powershell
+PS C:\UserFiles\HFUT\比赛\robomaster\培训\code\StudentManagement\build_new> mingw32-make
+Makefile:232: recipe for target 'cmake_check_build_system' failed
+mingw32-make: *** [cmake_check_build_system] Error -1073740791
+```
+
+上述错误可能是由于路径中包含中文字符引起的。建议将项目路径更改为仅包含英文字符的路径，例如：
+
+```powershell
+PS C:\UserFiles\CS\C(Cpp)\StudentManagement\build> mingw32-make
+[ 25%] Building C object CMakeFiles/student_system.dir/src/main.c.obj
+[ 50%] Building C object CMakeFiles/student_system.dir/src/student.c.obj
+[ 75%] Building C object CMakeFiles/student_system.dir/src/file_utils.c.obj
+[100%] Linking C executable student_system.exe
+[100%] Built target student_system
 ```
 
 ---

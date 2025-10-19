@@ -327,6 +327,12 @@ cl /Fe:hello.exe hello.c
 - 包含必要的 Windows 头文件和库
 - 不依赖 Cygwin
 
+更多信息请参考：
+
+- [MinGW-w64 官方网站](https://www.mingw-w64.org/)
+- [MinGW-w64的安装详细步骤](https://blog.csdn.net/qq_44918090/article/details/132190274)
+- [环境搭建 | Windows中MinGW-w64及GCC的下载、安装与配置](https://www.cnblogs.com/zijie1024/articles/18376803)
+
 ---
 
 ## 基于 IDE 配置环境

@@ -23,7 +23,7 @@
 
 ## 项目结构
 
-```
+```bash
 flappybird.ver.0.2/
 ├── main.cpp              # 主程序入口，游戏流程控制
 ├── CMakeLists.txt        # CMake 构建配置文件
@@ -230,7 +230,7 @@ int mainLoop() {
 
 **滚动实现**：
 
-```
+```txt
 初始状态：frontColOfCanvas = 0
 [0][1][2][3][4]...
  ↑
@@ -362,7 +362,7 @@ int mainwindow_isBirdHitMargin(struct bird *bird, struct mainwindow *window) {
 
 游戏记录保存在 `data.txt` 文件中，每行一条记录：
 
-```
+```txt
 SCORE 15 USERNAME Player1 DATE 2024/5/29 14:30:25
 SCORE 22 USERNAME Player2 DATE 2024/5/29 15:45:10
 ```
@@ -427,7 +427,7 @@ void writeData(int score, char userName[]) {
 
 #### 7.1 游戏流程
 
-```
+```txt
 [1] 启动游戏
     ↓
 [2] 输入玩家名称
@@ -447,7 +447,7 @@ void writeData(int score, char userName[]) {
 
 **主菜单**：
 
-```
+```txt
 【是否再来一局？】
  输入 1 重新开始
  输入 2 查看历史记录
@@ -508,6 +508,8 @@ default:
 
 ### 使用 CMake 构建
 
+Linux / macOS 用户可使用以下命令：
+
 ```bash
 # 创建构建目录
 mkdir build
@@ -521,6 +523,23 @@ cmake --build .
 
 # 运行游戏
 ./flappybird.ver.0.2
+```
+
+Windows 用户可使用以下命令：
+
+```powershell
+# 创建构建目录
+mkdir build
+cd build
+
+# 生成构建文件
+cmake -G "MinGW Makefiles" ..
+
+# 编译项目
+mingw32-make
+
+# 运行游戏
+.\flappybird.ver.0.2.exe
 ```
 
 ### 使用 Visual Studio
