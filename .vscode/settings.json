@@ -3,6 +3,10 @@
     "python-envs.defaultPackageManager": "ms-python.python:pip",
     "python-envs.pythonProjects": [],
     "files.associations": {
+        "stdio.h": "c"
+    },
+    "python-envs.pythonProjects": [],
+    "files.associations": {
         "*.dbclient-js": "javascript",
         "stdio.h": "c"
     }
