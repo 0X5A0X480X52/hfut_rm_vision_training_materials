@@ -30,14 +30,16 @@
 
 ### 推荐学习资料
 
+>【注】在之后的内容中『』代表可点击的链接
+
 更系统的学习资料请参考以下资源：
 
 **在线教程**：
 
-- [OpenCV 官方中文教程（4.x）](https://docs.opencv.ac.cn/4.12.0/d9/df8/tutorial_root.html)：官方文档的中文翻译，内容权威全面，**强烈推荐**！
-- [菜鸟教程 - OpenCV 教程](https://www.runoob.com/opencv/opencv-tutorial.html)：提供 Python 和 C++ 两个版本的简明教程，适合快速入门。
-- [OpenCV-Python教程介绍](https://kongenen.github.io/pages/4ec038/#opencv)：一个较为详细的 OpenCV-Python 教程，涵盖基础和进阶内容。
-- [OpenCV 官方文档（英文）](https://docs.opencv.org/)：最新最全的官方参考，适合查阅 API。
+- 『[OpenCV 官方中文教程（4.x）](https://docs.opencv.ac.cn/4.12.0/d9/df8/tutorial_root.html)』：官方文档的中文翻译，内容权威全面，**强烈推荐**！
+- 『[菜鸟教程 - OpenCV 教程](https://www.runoob.com/opencv/opencv-tutorial.html)』：提供 Python 和 C++ 两个版本的简明教程，适合快速入门。
+- 『[OpenCV-Python教程介绍](https://kongenen.github.io/pages/4ec038/#opencv)』：一个较为详细的 OpenCV-Python 教程，涵盖基础和进阶内容。
+- 『[OpenCV 官方文档（英文）](https://docs.opencv.org/)』：最新最全的官方参考，适合查阅 API。
 
 **书籍推荐**：
 
@@ -159,10 +161,10 @@ git push -u origin main
 
 #### 0.2 学习资料
 
-- [菜鸟教程 - OpenCV 安装](https://www.runoob.com/opencv/opencv-install.html)
-- [OpenCV 官方安装指南](https://docs.opencv.org/4.x/df/d65/tutorial_table_of_content_introduction.html)
+- 『[菜鸟教程 - OpenCV 安装](https://www.runoob.com/opencv/opencv-install.html)』
+- 『[OpenCV 官方安装指南](https://docs.opencv.org/4.x/df/d65/tutorial_table_of_content_introduction.html)』
 - C++ 环境配置（基于 CMake）可参考
-  - 博客: [Vscode+Cmake配置并运行opencv环境(Windows和Ubuntu大同小异)](https://blog.csdn.net/m0_51194302/article/details/126719355)
+  - 博客: 『[Vscode+Cmake配置并运行opencv环境(Windows和Ubuntu大同小异)](https://blog.csdn.net/m0_51194302/article/details/126719355)』
 
 > 大体上来说，Python 环境安装较为简单，推荐优先使用 Python 进行学习和实验。C++ 环境配置相对复杂，初学者可根据需要选择性完成。【但请务必保证最终能够顺利使用 C++ 进行开发，最终考核要求使用 C++ 进行开发】
 
@@ -204,17 +206,17 @@ C++ 环境配置请参考上述博客链接，根据你的操作系统和 IDE �
 
 #### 1.1 基本知识点
 
-- 了解 OpenCV 的基本模块与功能（[OpenCV 基础模块](https://www.runoob.com/opencv/opencv-basic.html)）
+- 了解 OpenCV 的基本模块与功能（『[OpenCV 基础模块](https://www.runoob.com/opencv/opencv-basic.html)』）
 - 感受 Python 与 C++ 接口差异
-- OpenCV 图像表示：NumPy 数组与 cv::Mat （[cv::Mat - 基本图像容器](https://docs.opencv.ac.cn/4.12.0/d6/d6d/tutorial_mat_the_basic_image_container.html)）【了解即可，可在后续的使用中加深理解】
-- BGR 与 RGB 的默认约定（[【超直白讲解opencv RGB与BGR】RGB模式与BGR模式有什么不同，如何相互转换？](https://blog.csdn.net/weixin_52527544/article/details/128008221)）
+- OpenCV 图像表示：NumPy 数组与 cv::Mat （『[cv::Mat - 基本图像容器](https://docs.opencv.ac.cn/4.12.0/d6/d6d/tutorial_mat_the_basic_image_container.html)』）【了解即可，可在后续的使用中加深理解】
+- BGR 与 RGB 的默认约定（『[【超直白讲解opencv RGB与BGR】RGB模式与BGR模式有什么不同，如何相互转换？](https://blog.csdn.net/weixin_52527544/article/details/128008221)』）
 - 图像读取、显示、保存
-- 【扩展-可选】了解 OpenCV Core 模块的常用数据类型与操作（[OpenCV Core 模块](https://docs.opencv.ac.cn/4.12.0/de/d7a/tutorial_table_of_content_core.html)）
+- 【扩展-可选】了解 OpenCV Core 模块的常用数据类型与操作（『[OpenCV Core 模块](https://docs.opencv.ac.cn/4.12.0/de/d7a/tutorial_table_of_content_core.html)』）
 
 #### 1.2 学习资料
 
-- [菜鸟教程 - OpenCV 入门实例](https://www.runoob.com/opencv/opencv-first-example.html)
-- [OpenCV 中文教程 - 图像入门](https://docs.opencv.ac.cn/4.12.0/db/deb/tutorial_display_image.html)
+- 『[菜鸟教程 - OpenCV 入门实例](https://www.runoob.com/opencv/opencv-first-example.html)』
+- 『[OpenCV 中文教程 - 图像入门](https://docs.opencv.ac.cn/4.12.0/db/deb/tutorial_display_image.html)』
 
 #### 1.3 应知应会 Checklist
 
@@ -280,10 +282,10 @@ int main() {
 
 #### 2.2 学习资料
 
-- [OpenCV 中文教程 - 颜色空间转换](https://docs.opencv.ac.cn/4.12.0/df/d9d/tutorial_py_colorspaces.html)
-- [OpenCV 中文教程 - 使用 inRange 的阈值操作](https://docs.opencv.ac.cn/4.12.0/da/d97/tutorial_threshold_inRange.html)
+- 『[OpenCV 中文教程 - 颜色空间转换](https://docs.opencv.ac.cn/4.12.0/df/d9d/tutorial_py_colorspaces.html)』
+- 『[OpenCV 中文教程 - 使用 inRange 的阈值操作](https://docs.opencv.ac.cn/4.12.0/da/d97/tutorial_threshold_inRange.html)』
 - 相关博客：
-  - [OpenCV颜色空间详解及转换](https://blog.csdn.net/m0_73815298/article/details/129699151)
+  - 『[OpenCV颜色空间详解及转换](https://blog.csdn.net/m0_73815298/article/details/129699151)』
 
 #### 2.3 应知应会 Checklist
 
@@ -330,9 +332,9 @@ cv.waitKey(0)
 
 #### 3.2 学习资料
 
-- [菜鸟教程 - 图像基本操作](https://www.runoob.com/opencv/opencv-image-operator.html)
-- [OpenCV 中文教程 - 几何变换](https://docs.opencv.ac.cn/4.12.0/da/d6e/tutorial_py_geometric_transformations.html)
-- [OpenCV 中文教程 - ReMap](https://docs.opencv.ac.cn/4.12.0/d1/da0/tutorial_remap.html)
+- 『[菜鸟教程 - 图像基本操作](https://www.runoob.com/opencv/opencv-image-operator.html)』
+- 『[OpenCV 中文教程 - 几何变换](https://docs.opencv.ac.cn/4.12.0/da/d6e/tutorial_py_geometric_transformations.html)』
+- 『[OpenCV 中文教程 - ReMap](https://docs.opencv.ac.cn/4.12.0/d1/da0/tutorial_remap.html)』
 
 #### 3.3 应知应会 Checklist
 
@@ -382,11 +384,11 @@ cv.waitKey(0)
 
 #### 4.2 学习资料
 
-- [菜鸟教程 - 图像阈值处理](https://www.runoob.com/opencv/opencv-image-thresholding.html)
-- [OpenCV 中文教程 - 图像阈值](https://docs.opencv.ac.cn/4.12.0/d7/d4d/tutorial_py_thresholding.html)
-- 博客：[OpenCV--图像二值化(Binary Image)](https://zhuanlan.zhihu.com/p/186357948)
-- 【扩展-可选】[OpenCV 中文教程 - 图像分割与距离变换和分水岭算法](https://docs.opencv.ac.cn/4.12.0/d2/dbd/tutorial_distance_transform.html)
-- 【扩展-可选】[通过梯度结构张量进行各向异性图像分割](https://docs.opencv.ac.cn/4.12.0/d4/d70/tutorial_anisotropic_image_segmentation_by_a_gst.html)
+- 『[菜鸟教程 - 图像阈值处理](https://www.runoob.com/opencv/opencv-image-thresholding.html)』
+- 『[OpenCV 中文教程 - 图像阈值](https://docs.opencv.ac.cn/4.12.0/d7/d4d/tutorial_py_thresholding.html)』
+- 博客：『[OpenCV--图像二值化(Binary Image)](https://zhuanlan.zhihu.com/p/186357948)』
+- 【扩展-可选】『[OpenCV 中文教程 - 图像分割与距离变换和分水岭算法](https://docs.opencv.ac.cn/4.12.0/d2/dbd/tutorial_distance_transform.html)』
+- 【扩展-可选】『[通过梯度结构张量进行各向异性图像分割](https://docs.opencv.ac.cn/4.12.0/d4/d70/tutorial_anisotropic_image_segmentation_by_a_gst.html)』
 
 #### 4.3 应知应会 Checklist
 
@@ -439,10 +441,10 @@ cv.waitKey(0)
 
 #### 5.2 学习资料
 
-- [菜鸟教程 - 图像形态学操作](https://www.runoob.com/opencv/opencv-image-morphological-operations.html)
-- [OpenCV 中文教程 - 形态学变换](https://docs.opencv.ac.cn/4.12.0/d9/d61/tutorial_py_morphological_ops.html)
-- [OpenCV 中文教程 - 腐蚀与膨胀](https://docs.opencv.ac.cn/4.12.0/db/df6/tutorial_erosion_dilatation.html)
-- [OpenCV 中文教程 - 更多形态学变换](https://docs.opencv.ac.cn/4.12.0/d3/dbe/tutorial_opening_closing_hats.html)
+- 『[菜鸟教程 - 图像形态学操作](https://www.runoob.com/opencv/opencv-image-morphological-operations.html)』
+- 『[OpenCV 中文教程 - 形态学变换](https://docs.opencv.ac.cn/4.12.0/d9/d61/tutorial_py_morphological_ops.html)』
+- 『[OpenCV 中文教程 - 腐蚀与膨胀](https://docs.opencv.ac.cn/4.12.0/db/df6/tutorial_erosion_dilatation.html)』
+- 『[OpenCV 中文教程 - 更多形态学变换](https://docs.opencv.ac.cn/4.12.0/d3/dbe/tutorial_opening_closing_hats.html)』
 
 #### 5.3 应知应会 Checklist
 
@@ -487,12 +489,12 @@ cv.waitKey(0)
 
 #### 6.2 学习资料
 
-- [菜鸟教程 - 图像平滑处理](https://www.runoob.com/opencv/opencv-image-smoothing.html)
-- [OpenCV 中文教程 - 图像平滑 1](https://docs.opencv.ac.cn/4.12.0/d4/d13/tutorial_py_filtering.html)
-- [OpenCV 中文教程 - 图像平滑 2](https://docs.opencv.ac.cn/4.12.0/dc/dd3/tutorial_gausian_median_blur_bilateral_filter.html)
-- 【扩展-可选】[离焦模糊滤波器](https://docs.opencv.ac.cn/4.12.0/de/d3c/tutorial_out_of_focus_deblur_filter.html)
-- 【扩展-可选】[运动去模糊滤波器](https://docs.opencv.ac.cn/4.12.0/d1/dfd/tutorial_motion_deblur_filter.html)
-- 【扩展-可选】[周期性噪声消除滤波器](https://docs.opencv.ac.cn/4.12.0/d2/d0b/tutorial_periodic_noise_removing_filter.html)
+- 『[菜鸟教程 - 图像平滑处理](https://www.runoob.com/opencv/opencv-image-smoothing.html)』
+- 『[OpenCV 中文教程 - 图像平滑 1](https://docs.opencv.ac.cn/4.12.0/d4/d13/tutorial_py_filtering.html)』
+- 『[OpenCV 中文教程 - 图像平滑 2](https://docs.opencv.ac.cn/4.12.0/dc/dd3/tutorial_gausian_median_blur_bilateral_filter.html)』
+- 【扩展-可选】『[离焦模糊滤波器](https://docs.opencv.ac.cn/4.12.0/de/d3c/tutorial_out_of_focus_deblur_filter.html)』
+- 【扩展-可选】『[运动去模糊滤波器](https://docs.opencv.ac.cn/4.12.0/d1/dfd/tutorial_motion_deblur_filter.html)』
+- 【扩展-可选】『[周期性噪声消除滤波器](https://docs.opencv.ac.cn/4.12.0/d2/d0b/tutorial_periodic_noise_removing_filter.html)』
 
 #### 6.3 应知应会 Checklist
 
@@ -536,9 +538,9 @@ cv.waitKey(0)
 
 #### 7.2 学习资料
 
-- [菜鸟教程 - OpenCV 视频处理 - 1](https://www.runoob.com/opencv/opencv-video.html)
-- [菜鸟教程 - OpenCV 视频处理 - 2](https://www.runoob.com/opencv/cpp-opencv-video.html)
-- [OpenCV 中文教程 - 视频入门](https://docs.opencv.ac.cn/4.12.0/dd/d43/tutorial_py_video_display.html)
+- 『[菜鸟教程 - OpenCV 视频处理 - 1](https://www.runoob.com/opencv/opencv-video.html)』
+- 『[菜鸟教程 - OpenCV 视频处理 - 2](https://www.runoob.com/opencv/cpp-opencv-video.html)』
+- 『[OpenCV 中文教程 - 视频入门](https://docs.opencv.ac.cn/4.12.0/dd/d43/tutorial_py_video_display.html)』
 
 #### 7.3 应知应会 Checklist
 
@@ -616,9 +618,7 @@ Day 7 的实现中仅支持使用两个字符（空格和 #），C++ 版本可�
 
 ---
 
-### 第二周：边缘检测、特征提取与颜色识别（Day 814）
-
----
+### 第二周：边缘检测与特征提取
 
 ### Day 8：边缘检测
 
@@ -630,7 +630,7 @@ Day 7 的实现中仅支持使用两个字符（空格和 #），C++ 版本可�
 
 #### 8.2 学习资料
 
-- [菜鸟教程 - 边缘检测](https://www.runoob.com/opencv/opencv-edge-detection.html)
+- [菜鸟教程 - 边缘检测](https://www.runoob.com/opencv/opencv-image-edge-detection.html)
 - [OpenCV 中文教程 - Canny 边缘检测](https://docs.opencv.ac.cn/4.12.0/da/d22/tutorial_py_canny.html)
 
 #### 8.3 应知应会 Checklist
@@ -675,8 +675,9 @@ cv.waitKey(0)
 
 #### 9.2 学习资料
 
+- [菜鸟教程 - 轮廓检测](https://www.runoob.com/opencv/opencv-image-contour-detection.html)
 - [OpenCV 中文教程 - 轮廓入门](https://docs.opencv.ac.cn/4.12.0/d4/d73/tutorial_py_contours_begin.html)
-- [OpenCV 中文教程 - 轮廓特征](https://docs.opencv.ac.cn/4.12.0/dd/d49/tutorial_py_contour_features.html)
+- []()
 
 #### 9.3 应知应会 Checklist
 
