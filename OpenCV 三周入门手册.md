@@ -632,6 +632,9 @@ Day 7 的实现中仅支持使用两个字符（空格和 #），C++ 版本可�
 
 - [菜鸟教程 - 边缘检测](https://www.runoob.com/opencv/opencv-image-edge-detection.html)
 - [OpenCV 中文教程 - Canny 边缘检测](https://docs.opencv.ac.cn/4.12.0/da/d22/tutorial_py_canny.html)
+- [OpenCV 中文教程 - Sobel 导数](https://docs.opencv.ac.cn/4.12.0/d2/d2c/tutorial_sobel_derivatives.html)
+- [OpenCV 中文教程 - Laplacian 算子](https://docs.opencv.ac.cn/4.12.0/d5/db5/tutorial_laplace_operator.html)
+- [OpenCV 中文教程 - Canny 边缘检测](https://docs.opencv.ac.cn/4.12.0/da/d5c/tutorial_canny_detector.html)
 
 #### 8.3 应知应会 Checklist
 
@@ -672,18 +675,26 @@ cv.waitKey(0)
 - 轮廓绘制：`drawContours()`
 - 轮廓属性：面积、周长、边界框、最小外接矩形/圆
 - 轮廓近似：`approxPolyDP()`  多边形逼近
+- 凸包：`convexHull()`
+- 霍夫变换（Hough Transform）：直线检测与圆检测
 
 #### 9.2 学习资料
 
 - [菜鸟教程 - 轮廓检测](https://www.runoob.com/opencv/opencv-image-contour-detection.html)
 - [OpenCV 中文教程 - 轮廓入门](https://docs.opencv.ac.cn/4.12.0/d4/d73/tutorial_py_contours_begin.html)
-- []()
+- [OpenCV 中文教程 - 轮廓检测](https://docs.opencv.ac.cn/4.12.0/df/d0d/tutorial_find_contours.html)
+- [OpenCV 中文教程 - 凸包](https://docs.opencv.ac.cn/4.12.0/d7/d1d/tutorial_hull.html)
+- [OpenCV 中文教程 - 边界矩形与最小外接圆](https://docs.opencv.ac.cn/4.12.0/da/d0c/tutorial_bounding_rects_circles.html)
+- [OpenCV 中文教程 - 旋转矩形与椭圆](https://docs.opencv.ac.cn/4.12.0/de/d62/tutorial_bounding_rotated_ellipses.html)
+- [OpenCV 中文教程 - 霍夫变换（直线）](https://docs.opencv.ac.cn/4.12.0/d9/db0/tutorial_hough_lines.html)
+- [OpenCV 中文教程 - 霍夫变换（圆）](https://docs.opencv.ac.cn/4.12.0/d4/d70/tutorial_hough_circle.html)
 
 #### 9.3 应知应会 Checklist
 
 - [ ] 能使用 `findContours()` 提取轮廓
 - [ ] 能计算轮廓的面积、周长、边界框
 - [ ] 能使用多边形逼近识别形状（三角形、矩形、圆形）
+- [ ] 能使用霍夫变换检测直线和圆
 
 #### 9.4 小任务
 
@@ -725,18 +736,34 @@ cv.waitKey(0)
 
 ---
 
-### Day 1011：HOG 特征与 SVM 分类
+### Day 10-11：HOG 特征与 SVM 分类
 
 #### 10.1 基本知识点
 
-- HOG（方向梯度直方图）特征：描述局部梯度方向分布
-- SVM（支持向量机）分类器
+> HOG + SVM 是经典的目标检测方法，常用于行人检测等任务。其基本流程为：
+>
+> 1. 收集正负样本图像
+> 2. 提取 HOG 特征
+> 3. 使用 SVM 训练分类器
+> 4. 保存训练好的模型
+> 5. 在新图像上提取 HOG 特征并使用 SVM 进行分类
+
+- **HOG**（方向梯度直方图）特征：描述局部梯度方向分布
+- **SVM**（支持向量机）分类器
 - 训练流程：特征提取  训练  保存模型  推理
+
+> - `scikit-learn` 是一个流行的机器学习库，提供了方便的常用机器学习算法实现，适合快速实验和原型开发。
+> - `scikit-learn` 提供了方便的 SVM 实现，但其为 python 生态，与 C++ 兼容性较差。OpenCV 也提供了 SVM 实现，推荐在 C++ 中使用 OpenCV 的 SVM 模块。
+> - 除了 SVM，还有其他分类器可选，如**决策树**、**随机森林**、**神经网络**等，但 SVM 是经典且易于实现的入门选择。这些都是**机器学习**的基础内容，感兴趣的同学可以自行查阅相关资料进行学习。
 
 #### 10.2 学习资料
 
-- [OpenCV 中文教程 - HOG](https://docs.opencv.ac.cn/4.12.0/d5/d33/structcv_1_1HOGDescriptor.html)
-- [scikit-learn SVM 文档](https://scikit-learn.org/stable/modules/svm.html)
+- 博客：[一文讲解方向梯度直方图（hog）](https://zhuanlan.zhihu.com/p/85829145)
+- [scikit-learn SVM 文档](https://scikit-learn.cn/stable/modules/svm.html)
+- [OpenCV 中文教程 - SVM](https://docs.opencv.ac.cn/4.12.0/d1/d73/tutorial_introduction_to_svm.html)
+- [OpenCV 中文教程 - 非线性 SVM](https://docs.opencv.ac.cn/4.12.0/d0/dcc/tutorial_non_linear_svms.html)
+- [HOG + SVM 进行分类的基本流程](https://zhuanlan.zhihu.com/p/75705284)
+- 案例：[使用 HOG + SVM 实现手写数字分类](https://zhuanlan.zhihu.com/p/425646693)
 
 #### 10.3 应知应会 Checklist
 
@@ -757,7 +784,7 @@ from sklearn.datasets import load_digits
 from skimage.feature import hog
 from joblib import dump, load
 
-# 加载数据
+# 加载数据，这里使用 sklearn 自带的手写数字数据集
 digits = load_digits()
 X, y = digits.images, digits.target
 
@@ -765,33 +792,106 @@ X, y = digits.images, digits.target
 X_hog = []
 for img in X:
     img_uint8 = (img * 16).astype(np.uint8)
-    fd = hog(img_uint8, pixels_per_cell=(4, 4), cells_per_block=(2, 2))
-    X_hog.append(fd)
+    hog = cv.HOGDescriptor((8, 8), (4, 4), (4, 4), (4, 4), 9)
+    fd = hog.compute(img_uint8)
+    X_hog.append(fd.flatten())
+X_hog = np.array(X_hog)
 
-# 训练
-X_train, X_test, y_train, y_test = train_test_split(X_hog, y, test_size=0.2)
+#===== 使用 scikit-learn 的 SVM 实现 =====
+# 训练 —— 同时保留原始图像用于可视化
+X_train, X_test, imgs_train, imgs_test, y_train, y_test = train_test_split(
+    X_hog, X, y, test_size=0.2, random_state=42
+)
 clf = svm.SVC(kernel='linear')
 clf.fit(X_train, y_train)
 print(f'准确率: {clf.score(X_test, y_test):.2%}')
 
+# 用原始图像可视化部分测试样本及其预测结果
+for i in range(5):
+    # imgs_test 存储原始 8x8 浮点图像（0..16），先还原为 uint8 后放大显示
+    img = (imgs_test[i] * 16).astype(np.uint8)
+    img = cv.resize(img, (200, 200), interpolation=cv.INTER_NEAREST)
+    pred = clf.predict([X_test[i]])[0]
+    true = y_test[i]
+    # 图中添加预测结果文字
+    img = cv.cvtColor(img, cv.COLOR_GRAY2BGR)
+    cv.putText(img, f'True: {true}', (10, 30), cv.FONT_HERSHEY_SIMPLEX, 0.5, (0, 255, 0), 2)
+    cv.putText(img, f'sklearn Pred: {pred}', (10, 70), cv.FONT_HERSHEY_SIMPLEX, 0.5, (255, 0, 0), 2)
+    cv.imshow(f'sklearn SVM - True: {true} Pred: {pred}', img)
+    cv.waitKey(0)
+cv.destroyAllWindows()
+
 # 保存模型
 dump(clf, 'hog_svm.joblib')
+
+# ===== 使用 opencv-python 的 SVM 实现（与 scikit-learn 的实现类似）
+# 准备数据（OpenCV 要求 float32 的样本矩阵和 int32 的响应）
+X_train_cv = X_train.astype(np.float32)
+X_test_cv = X_test.astype(np.float32)
+y_train_cv = y_train.astype(np.int32)
+y_test_cv = y_test.astype(np.int32)
+
+svm_cv = cv.ml.SVM_create()
+svm_cv.setType(cv.ml.SVM_C_SVC)
+svm_cv.setKernel(cv.ml.SVM_LINEAR)
+svm_cv.setTermCriteria((cv.TERM_CRITERIA_MAX_ITER, 1000, 1e-6))
+
+# 训练
+train_data = cv.ml.TrainData_create(X_train_cv, cv.ml.ROW_SAMPLE, y_train_cv)
+svm_cv.train(train_data)
+
+# 评估准确率
+_, resp = svm_cv.predict(X_test_cv)
+preds_cv = resp.flatten().astype(np.int32)
+acc_cv = (preds_cv == y_test_cv).mean()
+print(f'OpenCV SVM 准确率: {acc_cv:.2%}')
+
+# 可视化部分测试样本的预测（来自 OpenCV SVM）
+for i in range(5):
+    img = (imgs_test[i] * 16).astype(np.uint8)
+    img = cv.resize(img, (200, 200), interpolation=cv.INTER_NEAREST)
+    img = cv.cvtColor(img, cv.COLOR_GRAY2BGR)
+    pred_opencv = int(preds_cv[i])
+    true = int(y_test_cv[i])
+    cv.putText(img, f'True: {true}', (10, 30), cv.FONT_HERSHEY_SIMPLEX, 0.5, (0, 255, 0), 2)
+    cv.putText(img, f'OpenCV Pred: {pred_opencv}', (10, 70), cv.FONT_HERSHEY_SIMPLEX, 0.5, (0, 128, 255), 2)
+    cv.imshow(f'OpenCV SVM - True:{true} Pred:{pred_opencv}', img)
+    key = cv.waitKey(0)
+    if key == 27:  # 按 Esc 可提前退出
+        break
+cv.destroyAllWindows()
+
+# 保存 OpenCV SVM 模型
+svm_cv.save('hog_svm_opencv.yml')
 ```
 
 ---
 
-### Day 1213：颜色识别与目标追踪
+### Day 12-13：颜色识别与目标追踪
 
 #### 12.1 基本知识点
 
+**目标追踪**（Object Tracking）的核心任务是：在时间序列图像中，对每一帧产生的目标检测结果进行时序关联（temporal association），从而为同一物理实体在不同时间上的观测分配一致的身份标识（ID）。
+
+> 目标追踪的基本流程为：
+>
+> 1. 通过各种检测方法（颜色、形状、预训练模型等）获取目标位置
+> 2. 计算目标的质心或边界框
+> 3. 使用各种追踪算法（简单质心追踪、卡尔曼滤波、SORT、Deep SORT、OpenCV 内置追踪器等）进行连续帧的目标位置预测与更新
+
 - HSV 颜色阈值分割
-- 连通域分析：`connectedComponentsWithStats()`
-- 质心计算与追踪
-- 简单目标追踪器（CSRT、KCF 等）
+- 连通域分析：`connectedComponentsWithStats()`（对于使用阈值分割后的二值图像可快速提取目标区域）
+- 质心计算与追踪（例如使用图像矩、用轮廓的中心）
+- 目标跟踪是一个复杂的进阶主题，以下仅介绍几种基础方法：
+  - 简单质心追踪（在连续帧中寻找最近质心）
+  - 使用 OpenCV 内置追踪器（如 KCF、MIL、CSRT 等）
+  - 更多进阶方法如卡尔曼滤波、SORT、Deep SORT 等感兴趣可自行查阅相关资料学习
 
 #### 12.2 学习资料
 
 - [OpenCV 中文教程 - 颜色空间](https://docs.opencv.ac.cn/4.12.0/df/d9d/tutorial_py_colorspaces.html)
+- 博客：[OpenCV 笔记(13)：连通域分析](https://zhuanlan.zhihu.com/p/1941444988983578785)
+- [OpenCV 中文教程 - 图像矩](https://docs.opencv.ac.cn/4.12.0/d0/d49/tutorial_moments.html)
 - [OpenCV 中文教程 - 目标追踪](https://docs.opencv.ac.cn/4.12.0/d2/d0a/tutorial_introduction_to_tracker.html)
 
 #### 12.3 应知应会 Checklist
@@ -845,6 +945,19 @@ cv.destroyAllWindows()
 
 1. **手写数字识别**：完善 HOG+SVM 模型，尝试在自己的手写数字上测试
 2. **颜色追踪**：实现多颜色目标追踪，显示运动轨迹
+3. **边缘与轮廓分析**：对复杂图像进行边缘检测与轮廓分析，识别多种形状
+4. **综合应用**：结合边缘检测、轮廓分析与颜色追踪，实现一个简单的视觉特征检测与追踪系统，以下为示意图：
+
+![测试图片](./image/OpenCV三周入门手册/feature_map.png)
+
+> Tips:
+>
+> 1. 可以将该视觉特征打印出来，放置在摄像头前进行测试和调试。
+> 2. 该视觉特征的四个角分别为 0-3 的 Apriltag 标签（tag25h9 家族），OpenCV 提供了对 AprilTag 的支持，感兴趣的同学可以查阅相关资料进行学习和实现。
+> 3. 可以直接通过 AprilTag 标签得到 ROI 区域，然后在该区域内进行颜色分割和轮廓分析，从而实现对标签的颜色特征检测与追踪。在下一周我们将介绍其他局部特征检测与描述子方法，避免对 AprilTag 产生依赖。
+> 4. 除了简单的基于 HSV 颜色阈值分割外，还可以尝试：
+>    - 使用 K-Means 聚类等方法进行颜色分割，从而提升鲁棒性。
+>    - 通过训练一个简单的分类器（如 SVM、决策树、随机森林等）来对颜色进行分类，从而提升识别准确率。
 
 ---
 
