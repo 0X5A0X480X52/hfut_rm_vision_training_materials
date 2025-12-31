@@ -1,0 +1,4 @@
+numpy
+opencv-python
+pupil_apriltags
+pyserial
